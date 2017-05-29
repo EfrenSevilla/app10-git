@@ -1,0 +1,460 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>APLICACIÓN DIEZ</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/tema-app10.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js"></script>
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section -->
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/descarga.jpg','imagenes/AP100505126621_0.jpg','imagenes/maxresdefault (1).jpg','imagenes/iglesia atlixco.jpg','imagenes/descarga (3).jpg','imagenes/descarga (5).jpg','imagenes/arton25142.jpg','imagenes/images.png')">
+
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+  <h1>ATLIXCO,PUEBLA</h1>
+</div>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/atlixco.jpg" alt="atlixco" title="atlixco" id="wows1_0"/></li>
+		<li><img src="data1/images/atlixco_10.jpg" alt="atlixco_10" title="atlixco_10" id="wows1_1"/></li>
+		<li><img src="data1/images/atlixco_portada3.jpg" alt="ATLIXCO_PORTADA3" title="ATLIXCO_PORTADA3" id="wows1_2"/></li>
+		<li><img src="data1/images/descarga_1.jpg" alt="descarga (1)" title="descarga (1)" id="wows1_3"/></li>
+		<li><img src="data1/images/descarga_2.jpg" alt="descarga (2)" title="descarga (2)" id="wows1_4"/></li>
+		<li><img src="data1/images/descarga_3.jpg" alt="descarga (3)" title="descarga (3)" id="wows1_5"/></li>
+		<li><img src="data1/images/descarga_4.jpg" alt="descarga (4)" title="descarga (4)" id="wows1_6"/></li>
+		<li><img src="data1/images/descarga_5.jpg" alt="descarga (5)" title="descarga (5)" id="wows1_7"/></li>
+		<li><img src="data1/images/descarga_6.jpg" alt="descarga (6)" title="descarga (6)" id="wows1_8"/></li>
+		<li><img src="data1/images/descarga_7.jpg" alt="descarga (7)" title="descarga (7)" id="wows1_9"/></li>
+		<li><img src="data1/images/descarga_8.jpg" alt="descarga (8)" title="descarga (8)" id="wows1_10"/></li>
+		<li><img src="data1/images/descarga.jpg" alt="descarga" title="descarga" id="wows1_11"/></li>
+		<li><a href="http://wowslider.com"><img src="data1/images/mapacentrodeatlixco.jpg" alt="wowslider" title="Mapa-Centro-de-Atlixco" id="wows1_12"/></a></li>
+		<li><img src="data1/images/maxresdefault.jpg" alt="maxresdefault" title="maxresdefault" id="wows1_13"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="atlixco"><span><img src="data1/tooltips/atlixco.jpg" alt="atlixco"/>1</span></a>
+		<a href="#" title="atlixco_10"><span><img src="data1/tooltips/atlixco_10.jpg" alt="atlixco_10"/>2</span></a>
+		<a href="#" title="ATLIXCO_PORTADA3"><span><img src="data1/tooltips/atlixco_portada3.jpg" alt="ATLIXCO_PORTADA3"/>3</span></a>
+		<a href="#" title="descarga (1)"><span><img src="data1/tooltips/descarga_1.jpg" alt="descarga (1)"/>4</span></a>
+		<a href="#" title="descarga (2)"><span><img src="data1/tooltips/descarga_2.jpg" alt="descarga (2)"/>5</span></a>
+		<a href="#" title="descarga (3)"><span><img src="data1/tooltips/descarga_3.jpg" alt="descarga (3)"/>6</span></a>
+		<a href="#" title="descarga (4)"><span><img src="data1/tooltips/descarga_4.jpg" alt="descarga (4)"/>7</span></a>
+		<a href="#" title="descarga (5)"><span><img src="data1/tooltips/descarga_5.jpg" alt="descarga (5)"/>8</span></a>
+		<a href="#" title="descarga (6)"><span><img src="data1/tooltips/descarga_6.jpg" alt="descarga (6)"/>9</span></a>
+		<a href="#" title="descarga (7)"><span><img src="data1/tooltips/descarga_7.jpg" alt="descarga (7)"/>10</span></a>
+		<a href="#" title="descarga (8)"><span><img src="data1/tooltips/descarga_8.jpg" alt="descarga (8)"/>11</span></a>
+		<a href="#" title="descarga"><span><img src="data1/tooltips/descarga.jpg" alt="descarga"/>12</span></a>
+		<a href="#" title="Mapa-Centro-de-Atlixco"><span><img src="data1/tooltips/mapacentrodeatlixco.jpg" alt="Mapa-Centro-de-Atlixco"/>13</span></a>
+		<a href="#" title="maxresdefault"><span><img src="data1/tooltips/maxresdefault.jpg" alt="maxresdefault"/>14</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery carousel</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section -->
+<div>
+     <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-a">
+     <li class="ui-first-child ui-last-child">
+       <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>ATLIXCO</h2>
+           <p>Se dan a conocer los mas destacados</p>
+       </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+       <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+        <h2>CERRO DE SAN MIGUEL</h2>
+        <p>Muetra informacion relevante</p>
+       </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+       <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>LEYENDAS</h2>
+         <p>Muestra las mas destacadas leyendas del municipio</p>
+       </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+       <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>¿COMO LLEGAR?</h2>
+           <p>Muestra las ubicaciones de zonas turisticas</p>
+       </a>
+       </li>
+        <li class="ui-first-child ui-last-child">
+       <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>IGLESIAS</h2>
+           <p>Muestra las mas populares</p>
+       </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+       <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>TRADICIONES</h2>
+           <p>Muestra fotos y informacion breve</p>
+       </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+       <a href="#Pagina7" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>HISTORIA</h2>
+           <p>Muestra echos relevantes</p>
+       </a>
+       </li>
+       <li class="ui-first-child ui-last-child">
+       <a href="#Pagina8" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+         <h2>CONOCER MAS</h2>
+           <p>Muestra links</p>
+       </a>
+       </li>
+      </ul>
+</div>
+  <div data-role="footer" align="center" data-theme="a" data-position="fixed">
+   <div>
+    <img src="res/android/mdpi.png" width="89" height="88"/>
+   </div>
+   <div>
+    <h4>Aplicación DIEZ</h4>
+     <h4>Efrén Ulises Molina Sevilla</h4>
+  </div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>ATLIXCO</h1>
+   </div>
+   
+    <div data-role="content" align="center">
+    <div data-role="collapsible" data-content-theme="false">
+   <h1>ESCUDO</h1>
+     <div>
+     </div>
+      <div><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image65','','imagenes/images.png',1)"><img src="imagenes/Escudo_atlixco.GIF" width="50%" id="Image65"></a></div>
+    </div>
+      <p><kbd>Heroica Atlixco(en nahuatl: atl, ixtlatl, co, ‘agua, valle, lugar’‘Lugar del valle de agua’) también conocido como «Atlixco de las flores», es un municipio que se localiza al suroeste de la Ciudad de Puebla. Recibió su título de «Heroica» debido a la Batalla del 4 de mayo de 1862 que precedería a la Batalla de Puebla del 5 de mayo de 1862.
+
+Es conocido por su buen clima y la gran actividad florística, comercial y turística que le valieron haber sido llamada Atlixco de las Flores y Granero de la Nueva España, durante la época colonial.
+
+El último domingo de septiembre, en la explanada del cerro de San Miguel, Atlixco se convierte en la sede de un festival en el que se reúnen los representantes de las once regiones culturales del estado de Puebla, festival que es llamado «Huey Atlixcáyotl» o Fiesta Grande de Atlixco y que es patrimonio cultural del estado de Puebla.
+
+En 1884, el Congreso local decretó que la cabecera municipal de Atlixco se llamara «Atlixco de Múgica y Osorio»; en honor al Benemérito del Estado de Puebla, Juan Múgica y Osorio.</kbd> </p>
+      <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image64','','imagenes/arton25142.jpg',1)"><img src="imagenes/atlixco pueblo magico puebla2 kiosko.jpg" width="50%" id="Image64"></a>
+<table width="200" border="1">
+  <tr>
+    <td>Coordenadas</td>
+    <td>18°54′45″N 98°25′40″O</td>
+  </tr>
+  <tr>
+    <td>Entidad</td>
+    <td>Localidad</td>
+  </tr>
+  <tr>
+    <td>País</td>
+    <td>México</td>
+  </tr>
+  <tr>
+    <td>Estado</td>
+    <td>Puebla</td>
+  </tr>
+  <tr>
+    <td>Municipio</td>
+    <td>Atlixco</td>
+  </tr>
+  <tr>
+    <td>Presidente municipal</td>
+    <td>José Luis Galeazzi (2014-2018)</td>
+  </tr>
+  <tr>
+    <td>Población (2010) Total;</td>
+    <td>1035 msnm</td>
+  </tr>
+  <tr>
+    <td>Gentilicio</td>
+    <td>Atlixquense</td>
+  </tr>
+ 
+</table>
+
+     
+
+</div>
+<div data-role="footer" data-theme="a" data-position="fixed">
+ <h4>Apliacion DIEZ, EUMS</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>CERRO DE SAN MIGUEL</h1>
+ </div>
+ <div data-role="content" align="center">
+ <div> 
+  <p align="center"><kbd>
+    
+    <kbd>También conocido como Popocatica (cerro que humea) o Macuilxochitpec (cerro de las cinco flores), es el lugar en donde se realiza la fiesta máxima de Atlixco que se lleva a cabo el último domingo de septiembre y para la que se reúnen los representantes de las once regiones culturales de Puebla. Pero aunque tu visita no coincida con la fecha, el lugar te ofrece una maravillosa vista panorámica y siempre puedes visitar la Capilla de San Miguel. </kbd>
+    <p>
+      <center> 
+        <kbd><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image53','','imagenes/maxresdefault (1).jpg',1)"><img src="imagenes/DA1x4c7UAAAJOOj.jpg" width="50%" id="Image53"></a> </kbd>
+      </center>      
+  <p align="center">    <kbd>Es aquí entonces donde se desarrolló esta gran ciudad llamada Atlixco la cual es un ícono para cada uno de los habitantes de esta ciudad y un atractivo único para los visitantes que aprecian el mágico Cerro de San Miguel el cual está enclavado en pleno centro de la ciudad y en este un ex convento de con las características de un castillo medieval.
+      
+      Se dice que Desde antiguo las familias atlixquenses subían al cerro a divertirse, llevaban comida, volaban papalotes, sobre todo durante el mes de septiembre muchos jóvenes ascendían al cerro a partir de las cinco de la mañana para entrar a la ermita y escuchar misa, alumbrados de teas y cantar durante una semana las mañanitas tradicionales al ángel que además es el abogado del diablo en la Corte Celestial.
+      
+    El cerro ha sido testigo de toda la vida de Atlixco y sus habitantes. Es un cerro que encierra misterios, energías, guarda voces del tiempo, testigo de la transformación de la ciudad y su gente. Es un cerro que desde ahí cerca de 50 años se juntan las etnias de la región y del estado para bailarle a Quetzalcóatl y a Macuilxochitl en el Huey Atlixcáyotl, antiquísima fiesta de celebraciones mediante la música y el baile para dar de comer y agradar a los dioses antiguos y a los santos modernos que tienen como emblema de redención en Cristo. </kbd>  </div>
+</div>
+<div data-role="footer" data-theme="a" data-position="fixed">
+  <h4>Apliacion DIEZ,EUMS</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>LEYENDAS</h1>
+</div>
+
+    <div data-role="content" align="center">
+    <div data-role="collapsible" data-content-theme="false">
+   <h1>CHARRO NEGRO</h1>
+     <div>
+     </div>
+      <div><kbd>Cuenta la leyenda, un tal señor Demetrio, presidente de la Asociación de Charros de Metepec en la década de los cincuenta, manejaba fuertes cantidades de dinero y eso fue conocido hasta el día de su muerte, ocasionada por dos balazos en la frente. Días antes comentó con los familiares la intención de guardas las riquezas. Y nadie sabe en dónde quedó todo.
+
+Sin embargo, desde aquellos años y hasta la fecha, muchos vecinos de Metepec aseguran haberlo visto vestido con un traje de charro negro, montando un caballo del mismo color y bajando a todo galope por las lomas del cerro de Axocopan. Incluso, aseguran observarlo por las noches en la clínica de Metepec en busca de almas moribundas y de dinero.</kbd></div>
+   </div>
+   <img src="imagenes/el_charro_negro_by_chemonox-d4z72tt.jpg" width="40%">
+    
+    
+    <div data-role="content" align="center">
+    <div data-role="collapsible" data-content-theme="false">
+   <h1>¡Las brujas de Atlixco!</h1>
+     <div>
+     </div>
+      <div> <kbd>Desde el barrio de San Juan de Dios, instalado en los pies del cerro de San Miguel y a cinco cuadras del zócalo de la ciudad, es posible observar a la bruja. “Ellas viven el cerro de San Miguel y varios ya fueron testigos por las noches de las bolas de fuego provenientes de ese lugar”.
+
+La recomendación, sobre todo para no ser “chupados” los niños, es colocar debajo del colchón unas tijeras en forma de cruz, y junto a la cama un listón rojo y un vaso de agua. La bola de lumbre es visible y logra perderse en la noche y en complicidad con el cerro.</kbd></div></div>
+      
+      <img src="imagenes/brujas-atlixco-puebla-cerro-san-miguel.jpg" width="50%"> 
+       <div data-role="content" align="center">
+    <div data-role="collapsible" data-content-theme="false">
+   <h1>EL DIABLO</h1>
+     <div>
+     </div>
+      <div><kbd>Para nadie es un secreto. El diablo vive y está amarrado en el cerro de San Miguel donde el arcángel del mismo nombre permite dejarlo salir por algunos días y es cuando los accidentes y la muerte adquieren fuerza. Todos saben que en la cueva oculta en ese monte habita Lucifer y en cada Atlixcayotl está pendiente de los ritos y las burlas a su persona.
+
+      </kbd></div></div>
+    <img src="imagenes/6-mitos-superticiosos-sobre-el-diablo.jpg" width="50%">
+     <div data-role="content" align="center">
+    <div data-role="collapsible" data-content-theme="false">
+   <h1>EL NAHUAL</h1>
+     <div>
+     </div>
+      <div><kbd>En algunas colonias del nororiente de Atlixco, muy cerca del cerro de San Miguel, vive el nahual, un hombre con dos personalidades –hombre transformado en perro–, quien avanza suspendido en el aire y así conduce y arenga el ganado para matarlo por las noches.
+
+La historia dice que son hombres procedentes de los pueblos cercanos a los cerros, y mediante un “pacto maligno” logran transformarse y robar el ganado. Cuentan que para acabar con dicho hechizo es necesario hacer una cruz con dos cuchillos, machetes o espadas de acero y colocarlas en dirección del nahual, quien termina revolcándose y dejando salir berridos horrendos.</kbd></div></div>
+<img src="imagenes/el_nahual_by_necronocimon.jpg" width="50%">
+    </div>
+</div></div>
+</div>
+<div data-role="footer" data-theme="a" data-position="fixed">
+<h4>Apliacion DIEZ, EUMS</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>COMO LLEGAR</h1>
+</div>
+<center>
+<img src="imagenes/Mapa-Centro-de-Atlixco.jpg" width="70%" align="middle">
+<div data-role="controlgroup" data-type="horizontal">
+    <a href="https://www.google.com.mx/maps/place/Atlixco,+Pue./@18.8845401,-98.3863562,19857m/data=!3m1!1e3!4m13!1m7!3m6!1s0x85cfb3eee015f935:0x5c4b12a3f9f700e7!2sAtlixco,+Pue.!3b1!8m2!3d18.9131227!4d-98.4293891!3m4!1s0x85cfb3eee015f935:0x5c4b12a3f9f700e7!8m2!3d18.9131227!4d-98.4293891?hl=es-419" class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-top">ATLIXCO</a></div>
+<div data-role="controlgroup" data-type="horizontal">
+    <a href="https://www.google.com.mx/maps/place/Viveros+De+Atlixco/@18.920757,-98.4227412,1766a,35y,260.86h,44.71t/data=!3m1!1e3!4m13!1m7!3m6!1s0x85cfb3eee015f935:0x5c4b12a3f9f700e7!2sAtlixco,+Pue.!3b1!8m2!3d18.9131227!4d-98.4293891!3m4!1s0x0:0xc8a195173e510d0b!8m2!3d18.9195926!4d-98.4412792?hl=es-419" class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-top">VIVERO DE ATLIXCO</a></div>
+    
+<div data-role="controlgroup" data-type="horizontal">
+    <a href="https://www.google.com.mx/maps/place/Z%C3%B3calo+de+Atlixco/@18.9228691,-98.404352,3662a,35y,260.86h,44.45t/data=!3m1!1e3!4m13!1m7!3m6!1s0x85cfb3eee015f935:0x5c4b12a3f9f700e7!2sAtlixco,+Pue.!3b1!8m2!3d18.9131227!4d-98.4293891!3m4!1s0x0:0xd4f45502e83cf283!8m2!3d18.9096461!4d-98.434571?hl=es-419" class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-top">ZOCALO DE ATLIXCO</a></div>
+<div data-role="controlgroup" data-type="horizontal"><a href="https://www.google.com.mx/maps/place/Atlixco,+Pue./@18.90669,-98.4352319,490m/data=!3m1!1e3!4m5!3m4!1s0x85cfb3eee015f935:0x5c4b12a3f9f700e7!8m2!3d18.9131227!4d-98.4293891?hl=es-419" class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-top">MERCADO BENITO JUAREZ</a>
+</center>
+
+<div data-role="footer" data-theme="a" data-position="fixed">
+  <h4>Apliacion DIEZ,EUMS</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>IGLESIAS</h1>
+</div>
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/atlixco.jpg" alt="atlixco" title="atlixco" id="wows1_0"/></li>
+		<li><img src="data1/images/da1x4c7uaaajooj.jpg" alt="DA1x4c7UAAAJOOj" title="DA1x4c7UAAAJOOj" id="wows1_1"/></li>
+		<li><img src="data1/images/descarga_5.jpg" alt="descarga (5)" title="descarga (5)" id="wows1_2"/></li>
+		<li><img src="data1/images/descarga_7.jpg" alt="descarga (7)" title="descarga (7)" id="wows1_3"/></li>
+		<li><img src="data1/images/igle1.jpg" alt="igle1" title="igle1" id="wows1_4"/></li>
+		<li><img src="data1/images/igle2.jpg" alt="igle2" title="igle2" id="wows1_5"/></li>
+		<li><img src="data1/images/igle3.jpg" alt="igle3" title="igle3" id="wows1_6"/></li>
+		<li><img src="data1/images/iglesia_atlixco.jpg" alt="iglesia atlixco" title="iglesia atlixco" id="wows1_7"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/images_1.jpg" alt="wowslider.net" title="images (1)" id="wows1_8"/></a></li>
+		<li><img src="data1/images/maxresdefault.jpg" alt="maxresdefault" title="maxresdefault" id="wows1_9"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title="atlixco"><span><img src="data1/tooltips/atlixco.jpg" alt="atlixco"/>1</span></a>
+		<a href="#" title="DA1x4c7UAAAJOOj"><span><img src="data1/tooltips/da1x4c7uaaajooj.jpg" alt="DA1x4c7UAAAJOOj"/>2</span></a>
+		<a href="#" title="descarga (5)"><span><img src="data1/tooltips/descarga_5.jpg" alt="descarga (5)"/>3</span></a>
+		<a href="#" title="descarga (7)"><span><img src="data1/tooltips/descarga_7.jpg" alt="descarga (7)"/>4</span></a>
+		<a href="#" title="igle1"><span><img src="data1/tooltips/igle1.jpg" alt="igle1"/>5</span></a>
+		<a href="#" title="igle2"><span><img src="data1/tooltips/igle2.jpg" alt="igle2"/>6</span></a>
+		<a href="#" title="igle3"><span><img src="data1/tooltips/igle3.jpg" alt="igle3"/>7</span></a>
+		<a href="#" title="iglesia atlixco"><span><img src="data1/tooltips/iglesia_atlixco.jpg" alt="iglesia atlixco"/>8</span></a>
+		<a href="#" title="images (1)"><span><img src="data1/tooltips/images_1.jpg" alt="images (1)"/>9</span></a>
+		<a href="#" title="maxresdefault"><span><img src="data1/tooltips/maxresdefault.jpg" alt="maxresdefault"/>10</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com">wowslider.com</a> by WOWSlider.com v8.7</div>
+<div class="ws_shadow"></div>
+</div>	
+<div align="center">
+  <script type="text/javascript" src="engine1/wowslider.js"></script>
+  <script type="text/javascript" src="engine1/script.js"></script>
+  
+  <!-- End WOWSlider.com BODY section -->
+  <kbd>El ex-convento franciscano de Santa María de Jesús se ubica en el cerro de San Miguel, lugar ceremonial donde se celebra el Huey Atlixcayotl. Data del siglo XVI. Construido en dos periodos, el primero abarca de 1538 a 1550, el segundo de 1560 a 1620. Perteneció a los franciscanos, dedicado a evangelizar a los indígenas de la región. El conjunto arquitectónico lo forman un gran atrio, el templo y el convento. Tiene una puerta atrial con dos arcos y en la fachada los nichos del vía crucis. A mediados del siglo XIX fueron colocados en el templo parte de los bienes muebles de la iglesia del Carmen destacando entre ellos el retablo mayor que es considerado como uno de los más bellos que se ejecutaron en la Nueva España durante el siglo XVII.
+    Es la primera fundación franciscana en el lugar que en el momento de la conquista española se llamó Acapetlahucán, que quiere decir; “lugar donde se hacían esteras de caña seca”, ubicada en las faldas del ahora cerro de San Miguel.
+    Es durante el gobierno de la primera audiencia que fray Toribio de Benavente, “Motolinia”, funda entre los años de 1551 y 1562 el templo en una congregación de indios que había ayuntado fray Alonso de Buendía y lo dedica a la Visitación de Nuestra Señora.</kbd>
+</div>
+<div data-role="footer" data-theme="a" data-position="fixed">
+  <h4>Apliacion DIEZ,EUMS</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>TRADICIONES</h1>
+</div>
+<div data-role="content" align="center">
+    <div data-role="collapsible" data-content-theme="false">
+   <h1>FIESTA DE REYES</h1>
+     <div>
+     <img src="imagenes/TRADICIONES-5-300x203 (1).jpg" width="50%">
+     </div>
+ </div>
+ <kbd>Es un majestuoso desfile de 5 km de largo en el que más de 15 carros alegóricos, comparsas y bandas locales recorren las calles principales de la Ciudad. Los reyes magos visitan Atlixco el 5 de Enero gracias a que los niños hacen un Festival de la Ilusión en el que les piden que no se olviden de los más necesitados. Con asistencia de más de 60 mil espectadores la Fiesta de Reyes es desde hace mas de 18 años, un evento que involucra a gran parte de la comunidad del Municipio. ¡¡¡Cada año nuevos carros alegóricos!!! VEN Y DISFRÚTALO.</kbd> 
+  <div data-role="collapsible" data-content-theme="false">
+   <h1>SEMANA SANTA</h1>
+     <div>
+     <img src="imagenes/fiesta-de-reyes-203x300.jpg" width="50%">
+     </div>
+     </div>
+     <kbd>En esta temporada en la comunidad de Nexatengo desde hace más de 17 años se adornan las calles con flores, hojas de pino y alfombras de aserrín, por donde pasa la imagen del Sr. Jesús de Nazareth en donde más de 8 mil personas provenientes de varias comunidades caminan 8 km en silencio, derivado de ello el Nombre de la Procesión del Silencio.
+
+<div data-role="collapsible" data-content-theme="false">
+   <h1>ATLIXCAYOTONTLI</h1>
+     <div>
+     <img src="imagenes/TRADICIONES-4-300x203.jpg" width="50%">
+     </div>
+     </div>
+     “La Gran Fiesta de Atlixco”. Con una tradición de más de 48 años de música, danza y artesanías de las 11 regiones etnográficas del Estado de Puebla. Fue declarado Patrimonio Cultural del estado de Puebla el 29 de Julio de 1996. Hoy es la gran fiesta de los poblanos. Se celebra el último domingo de Septiembre en el Cerro de San Miguel.
+       <div data-role="collapsible" data-content-theme="false">
+   <h1>VILLA ILUMINADA</h1>
+     <div>
+     <img src="imagenes/villa-iluminada-300x203.jpg" width="50%">
+     </div>
+     </div>
+     Más de 45 días Atlixco se ilumina con espectaculares figuras que adornarán calles y avenidas en un recorrido que te dejara maravillado, además podrás disfrutar de eventos culturales y artísticos que harán de tu estancia algo mágico, ¡¡¡VEN y SÉ TESTIGO!!!
+     
+De igual forma en las principales calles de la ciudad de Atlixco se realiza una de las procesiones de Viernes Santo más impactantes de la región, donde varios hombres conocidos como los Engrillados, recorren las calles encadenados con más de 50 kilos a cuestas, portando coronas de espinas, así como púas o puntas que se colocan en distintas partes del cuerpo, principalmente en hombros y pies, en cumplimiento de alguna promesa o agradecimiento a Dios por un favor recibido. En ambas procesiones se puede apreciar majestuosos tapetes de aserrín, elaborados por los propios lugareños. </kbd></div>
+<div data-role="footer" data-theme="a" data-position="fixed">
+  <h4>Apliacion DIEZ,EUMS</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina7" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>HISTORIA</h1>
+</div>
+
+<div align="center">
+  <p><kbd>Hacia el año 1100 A.C. el valle de Atlixco se hallaba ocupado por pobladores de origen Teochichimeca, Chichimeca y Xicalancas que bajo el dominio de la gran Tenochtitlan, se asentaron primeramente al poniente del cerro de San Miguel, hoy Solares Grandes.
+    
+    Estos primeros pueblos fundaron así Quaquechollan (Águila que huye) y que tiempo después llamaron Acapetlahuacan, “Lugar de división del señorío”. Su posición geográfica hizo que fuera escenario de luchas entre los diversos grupos indígenas que estaban asentados en los alrededores.
+    
+    La nueva población que fundaron fue también llamada Quauhquechollan, pero para confundirla con su antiguo asentamiento la denominaron Huehue Quauhquechollan, es decir la “antigua” o la “vieja” Quauhquechollan A la llegada de los españoles, el poblado indígena que existía era Acapetlahuacan.
+    
+    Al crecer la comunidad española, se realizaron las gestiones necesarias ante la Corona para que se les autorizara la fundación de la Villa de Carrión. Don Pedro del Castillo Maldonado y Cristóbal Ruiz Cabrera fundaron la Villa de Carrión, hoy Atlixco, pasando a ser los primeros Alcaldes Ordinarios.
+    
+    La fertilidad del Valle hizo que la Villa de Carrión pronto fuera una importante zona agrícola, convirtiéndose ya para principios de siglo XVII en el primer granero de la Nueva España lo que llamó la atención de órdenes religiosas como la de los franciscanos, agustinos, carmelitas, mercedarios, juaninos y la de las monjas clarisas, que llegaron hasta el valle para edificar sus conventos.</kbd></p>
+  <p>
+    <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image61','','imagenes/iglesia atlixco.jpg',1)"><img src="imagenes/descarga.jpg" width="50%" id="Image61"></a></p>
+</div>
+<center>
+<div data-role="controlgroup" data-type="horizontal">
+    <a href="https://www.youtube.com/watch?v=so12dMShcpA" class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-top">VIDEO</a></div>
+<div data-role="controlgroup" data-type="horizontal">
+    <a href="http://atlixco.gob.mx/historia-de-atlixco" class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-top">CONOCER MAS</a></div>
+</center>
+<div data-role="footer" data-theme="a" data-position="fixed">
+  <h4>Apliacion DIEZ,EUMS</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina8" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+<h1>CONOCER MAS</h1>
+</div>
+<center>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image62','','imagenes/descarga (3).jpg',1)"><img src="imagenes/maxresdefault (1).jpg" width="50%" id="Image62"></a>
+<div data-role="controlgroup" data-type="horizontal">
+  <a href="http://puebla.travel/es/atlixco" class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-top">ATLIXCO</a></div>
+
+<div data-role="controlgroup" data-type="horizontal">
+    <a href="http://www.unotv.com/noticias/portal/turismo/detalle/checa-el-tapete-monumental-en-atlixco-por-semana-santa-207096/" class="ui-btn ui-corner-all ui-icon-delete ui-btn-icon-top">TAPETES MONUMENTALES</a></div>
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image63','','imagenes/descarga (5).jpg',1)"><img src="imagenes/ATLIXCO_PORTADA3.jpg" width="50%" id="Image63"></a>
+</center>
+
+<div data-role="footer" data-theme="a" data-position="fixed">
+  <h4>Apliacion DIEZ,EUMS</h4>
+</div>
+</div>
+
+</body>
+</html>
